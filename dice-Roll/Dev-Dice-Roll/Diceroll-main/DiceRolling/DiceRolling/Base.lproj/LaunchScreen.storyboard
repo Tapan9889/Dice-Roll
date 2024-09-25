@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="QWt-fM-BNj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LET'S PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfQ-mf-eiH">
+                                <rect key="frame" x="73" y="412.66666666666669" width="247" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="tableCellPlainBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QWt-fM-BNj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="50V-T6-Ccq"/>
+                            <constraint firstItem="sfQ-mf-eiH" firstAttribute="width" secondItem="QWt-fM-BNj" secondAttribute="width" multiplier="0.628499" id="58w-1o-8hM"/>
+                            <constraint firstItem="QWt-fM-BNj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="7dI-sn-Pzf"/>
+                            <constraint firstItem="sfQ-mf-eiH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="H2d-V0-qP9"/>
+                            <constraint firstItem="sfQ-mf-eiH" firstAttribute="height" secondItem="QWt-fM-BNj" secondAttribute="height" multiplier="0.0786385" id="S7T-uM-Bs9"/>
+                            <constraint firstAttribute="bottom" secondItem="QWt-fM-BNj" secondAttribute="bottom" id="Wvk-C3-PVM"/>
+                            <constraint firstItem="sfQ-mf-eiH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="20" id="bc2-dM-2L7"/>
+                            <constraint firstItem="QWt-fM-BNj" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="fgF-fm-Ss9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-347.32824427480915" y="203.52112676056339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dice1" width="184" height="275"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tableCellPlainBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
